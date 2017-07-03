@@ -17,6 +17,11 @@ namespace CITestWcfService
             return string.Format("You entered: {0}", value);
         }
 
+        /// <summary>
+        /// Comment to commit to First
+        /// </summary>
+        /// <param name="composite"></param>
+        /// <returns></returns>
         public CompositeType GetDataUsingDataContract(CompositeType composite)
         {
             if (composite == null)
